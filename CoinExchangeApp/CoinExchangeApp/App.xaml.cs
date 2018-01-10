@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using CoinExchangeApp.Views;
 using Xamarin.Forms;
 
 namespace CoinExchangeApp
@@ -13,7 +13,7 @@ namespace CoinExchangeApp
 		{
 			InitializeComponent();
 
-			MainPage = new CoinExchangeApp.MainPage();
+            MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
